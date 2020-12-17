@@ -7,6 +7,30 @@
   pointer-events: none;
 }
 
+.box-wrapper {
+  width: 400px;
+  height: 400px;
+  background: #ded1d1;
+}
+.fullBox {
+  background: #d5e8bc;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+
+
+.boxItemWrapper {
+  color: black
+}
+
+.emptyBox {
+  background: white;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
